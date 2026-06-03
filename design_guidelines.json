@@ -1,0 +1,129 @@
+{
+  "theme": "dark",
+  "archetype": "5 (Luxury)",
+  "colors": {
+    "primary": "#D4AF37",
+    "primary_hover": "#F3E5AB",
+    "background_base": "#0A0A0A",
+    "background_surface": "#121212",
+    "background_surface_elevated": "#1A1A1A",
+    "text_main": "#F3F4F6",
+    "text_muted": "#9CA3AF",
+    "border_subtle": "rgba(255, 255, 255, 0.1)",
+    "border_gold": "rgba(212, 175, 55, 0.3)"
+  },
+  "typography": {
+    "heading_font": "Bebas Neue",
+    "subheading_font": "Cormorant Garamond",
+    "body_font": "Outfit",
+    "h1_classes": "font-heading text-5xl sm:text-6xl+ tracking-tighter uppercase leading-none text-white",
+    "h2_classes": "font-heading text-3xl sm:text-4xl+ tracking-tight uppercase leading-tight text-white",
+    "subheading_classes": "font-serif text-xl sm:text-2xl text-[#D4AF37] italic",
+    "body_classes": "font-sans text-base text-gray-400 leading-relaxed"
+  },
+  "layout": {
+    "spacing_scale": "Generous (p-8, p-12, p-16, p-24) to create a luxurious, uncrowded feel.",
+    "border_radius": "Sharp edges (rounded-none) or very subtle (rounded-sm) for a tough, serious look. No pill-shaped buttons.",
+    "container_classes": "max-w-7xl mx-auto px-6 md:px-12"
+  },
+  "components": {
+    "header": {
+      "style": "Glassmorphism: backdrop-blur-xl bg-black/60, fixed top-0 w-full z-50 border-b border-white/5",
+      "links": "Uppercase, tracking-widest, text-xs text-gray-300 hover:text-[#D4AF37] transition-colors"
+    },
+    "hero": {
+      "layout": "Full viewport height (min-h-screen). Background image with heavy gradient overlay (bg-gradient-to-r from-black/90 via-black/60 to-transparent).",
+      "content": "Left-aligned, massive H1, sophisticated subheading. Strong CTA button."
+    },
+    "buttons": {
+      "primary": "bg-[#D4AF37] text-black font-heading tracking-widest uppercase text-xl px-8 py-4 hover:bg-[#F3E5AB] transition-colors shadow-[0_0_20px_rgba(212,175,55,0.2)] hover:shadow-[0_0_30px_rgba(212,175,55,0.4)]",
+      "secondary": "bg-transparent border border-[#D4AF37] text-[#D4AF37] font-heading tracking-widest uppercase text-xl px-8 py-4 hover:bg-[#D4AF37]/10 transition-colors"
+    },
+    "cards": {
+      "style": "bg-[#121212] border border-white/5 p-8 hover:border-[#D4AF37]/30 transition-colors duration-300 group",
+      "icon_style": "text-[#D4AF37] w-10 h-10 mb-6 group-hover:scale-110 transition-transform duration-300"
+    }
+  },
+  "sections": [
+    {
+      "name": "Header",
+      "content": "Logo (Text 'ESTILO EM DUAS RODAS'), Links: O Ebook, O Autor, Benefícios, Depoimentos, CTA: 'Garantir Cópia'"
+    },
+    {
+      "name": "Hero",
+      "content": "Impactful H1: 'A Essência da Irmandade em Duas Rodas'. Subheading: 'Descubra os princípios, a segurança e a verdadeira identidade dos Moto Clubes.'. CTA: 'Quero o Ebook por R$59,90'"
+    },
+    {
+      "name": "About Author / Book",
+      "content": "Split layout. Image of Cel. Wellington. Text: 'Cel. Wellington Cardoso Laureano - Veterano da Polícia Militar e fundador de Moto Clubes. Uma vida dedicada à disciplina e paixão sobre rodas.'"
+    },
+    {
+      "name": "Key Points (Benefits)",
+      "content": "Bento Grid or 3-column layout. Points: Liberdade, Irmandade, Segurança, Respeito. Use icons (lucide-react: Shield, Flame, Users, Navigation)."
+    },
+    {
+      "name": "Testimonials",
+      "content": "Fictional quotes from Moto Clube members. Dark cards with subtle gold accents."
+    },
+    {
+      "name": "Final CTA (Purchase Card)",
+      "content": "Massive central card. Ebook mockup image. Price: R$ 59,90. Guarantee seals. Final primary button."
+    }
+  ],
+  "media": {
+    "images": [
+      {
+        "category": "hero_background",
+        "url": "https://static.prod-images.emergentagent.com/jobs/f077411d-08b0-41b0-8a7c-a7fa139e38ca/images/0cbe3c0d9fce69b3d416d33bfde83cb6ef7703641437844fd5bc9427dc0bf374.png",
+        "description": "Cinematic bikers on highway at dusk. Use as hero background with gradient overlay."
+      },
+      {
+        "category": "author_portrait",
+        "url": "https://static.prod-images.emergentagent.com/jobs/f077411d-08b0-41b0-8a7c-a7fa139e38ca/images/2bd1c9b3e58c646f52cee7fbcd1bd0bfa4b3c2098fd3e0917c511c8ac9b611d4.png",
+        "description": "Distinguished veteran biker. Use in the About the Author section."
+      },
+      {
+        "category": "ebook_mockup",
+        "url": "https://static.prod-images.emergentagent.com/jobs/f077411d-08b0-41b0-8a7c-a7fa139e38ca/images/adc50a1581d6ef1b8f87746bb32a0998a1ecc1e0e1a271c17ba86585c652b811.png",
+        "description": "Digital ebook mockup. Use in the final purchase CTA section."
+      },
+      {
+        "category": "texture_background",
+        "url": "https://static.prod-images.emergentagent.com/jobs/f077411d-08b0-41b0-8a7c-a7fa139e38ca/images/761b6aabcae0aeac7dd1567d6268bec18989a3257b7a5a43ef60da441c780d21.png",
+        "description": "Premium black leather texture. Use as subtle background in key points or testimonials section with heavy opacity (e.g., opacity-10)."
+      },
+      {
+        "category": "testimonial_avatar_1",
+        "url": "https://images.unsplash.com/photo-1767678531413-2213d64c7215?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2OTV8MHwxfHNlYXJjaHwxfHxiaWtlciUyMGJyb3RoZXJob29kfGVufDB8fHx8MTc4MDMyNDIyOXww&ixlib=rb-4.1.0&q=85",
+        "description": "Biker avatar for testimonial 1."
+      },
+      {
+        "category": "testimonial_avatar_2",
+        "url": "https://images.unsplash.com/photo-1570976796738-314c43fff509?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTB8MHwxfHNlYXJjaHwxfHxtb3RvcmN5Y2xlJTIwY2x1YiUyMG5pZ2h0fGVufDB8fHx8MTc4MDMyNDIyOXww&ixlib=rb-4.1.0&q=85",
+        "description": "Biker avatar for testimonial 2."
+      }
+    ],
+    "icons": {
+      "library": "lucide-react",
+      "usage": "Use icons heavily in the Key Points section. Colors must be #D4AF37 (Gold)."
+    }
+  },
+  "motion_and_interactions": {
+    "hover_states": "Buttons should have a subtle glow effect (box-shadow) on hover. Cards should have their borders change from white/5 to gold/30 on hover.",
+    "scroll_animations": "Use Framer Motion to fade up elements as they scroll into view. Stagger children in grids."
+  },
+  "accessibility": {
+    "contrast": "Ensure white text has sufficient contrast against dark backgrounds. Use text-shadow if placed directly over images.",
+    "testing": "All buttons and links must have data-testid attributes."
+  },
+  "instructions_to_main_agent": [
+    "Use standard JS files, do not use TSX.",
+    "Do NOT use 'Inter' for headings. Use 'Bebas Neue' for impactful titles, 'Cormorant Garamond' for elegant subtitles, and 'Outfit' for body.",
+    "Install lucide-react and framer-motion.",
+    "Build custom HTML/Tailwind layouts for this marketing page, avoiding rigid Shadcn components unless necessary for form inputs.",
+    "Apply the luxury dark theme (bg-[#0A0A0A]) with gold (#D4AF37) accents as specified.",
+    "Ensure the hero section overlay is bg-black/60 to allow the image to breathe while keeping text readable.",
+    "The final CTA must prominently display the ebook_mockup image and a massive 'R$59,90' button.",
+    "Add data-testid attributes to all interactive elements."
+  ]
+}

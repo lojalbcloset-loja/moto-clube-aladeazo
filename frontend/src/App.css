@@ -1,0 +1,17 @@
+/* Minimal global styles - Tailwind handles the rest */
+
+/* Remove Emergent visual edit borders */
+[data-testid="header-logo"],
+[data-testid="header-logo"] * {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Hero background zoom on tall portrait screens to crop sky */
+@media (max-aspect-ratio: 3/4) {
+  .hero-bg > div:first-child {
+    background-size: auto 180% !important;
+    background-position: center 46% !important;
+  }
+}
